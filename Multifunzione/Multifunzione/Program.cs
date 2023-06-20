@@ -1733,6 +1733,7 @@ public class Matematica
         Console.WriteLine("15. FIBONACCI");
         Console.WriteLine("16. CONVERSIONI");
         Console.WriteLine("17. STAMPA TRIANGOLO DI TARATAGLIA FINO A NUMERO CHE INSERISCI TU");
+        Console.WriteLine("18. FAI PITAGORA IN BASE ALLE CONDIZIONI CHE GLI IMPONGO");
         Console.WriteLine("");
         Console.WriteLine("<------------------------------------------------------------------------------------------------------------------->");
     }
@@ -1747,10 +1748,10 @@ public class Matematica
         Console.WriteLine(" ");
         do
         {
-            Console.Write("INSERISCI SCELTA DA 1 A 17 ---> ");
+            Console.Write("INSERISCI SCELTA DA 1 A 18 ---> ");
             scelta = Convert.ToInt32(Console.ReadLine());
         }
-        while (scelta < 1 || scelta > 17);
+        while (scelta < 1 || scelta > 18);
 
         return scelta;
     }
@@ -1838,6 +1839,11 @@ public class Matematica
                 case 17:
                     Console.Clear();
                     InfoMath.Triangolo_di_Tartaglia();
+                    break;
+
+                case 18:
+                    Console.Clear();
+                    Pitagora.Scelta();
                     break;
             }
 
@@ -6041,5 +6047,97 @@ public class NumeriSenzaRipetizione_FunzioneOrdinato
             numeri_ordianti[i] = 0;
 
         return numero_passaggio;
+    }
+}
+
+public static class Pitagora
+{
+    public static void Scelta()
+    {
+        string scelta = " ";
+        do
+        {
+            Console.Clear();
+            Console.Write("inserisci che cosa vuoi calcolare i (ipotenusa) c (cateto) : ");
+            scelta = Convert.ToString(Console.ReadLine());
+
+            scelta = scelta.ToLower();
+
+        } while (scelta != "c" && scelta != "i");
+
+
+        switch (scelta)
+        {
+            case "i":
+                Console.Clear();
+                Ipotenusa();
+                break;
+            case "c":
+                Console.Clear();
+                Cateto();
+                break;
+        }
+
+        Rifare();
+    }
+
+    private static void Rifare()
+    {
+        string scelta = " ";
+        do
+        {
+            Console.WriteLine(" ");
+            Console.Write("inserisci se vuoi rifare s o n : ");
+            scelta = Convert.ToString(Console.ReadLine());
+            Console.Clear();
+
+            scelta = scelta.ToLower();
+
+        } while (scelta != "s" && scelta != "n");
+
+
+        switch (scelta)
+        {
+            case "s":
+                Scelta();
+                break;
+        }
+    }
+
+    private static void Ipotenusa()
+    {
+        Console.Write("inserisci dato primo cateto : ");
+        double cateto1 = Convert.ToDouble(Console.ReadLine());
+
+
+        Console.Write("inserisci dato secondo cateto : ");
+        double cateto2 = Convert.ToDouble(Console.ReadLine());
+
+        double ipotenuusa = Math.Sqrt((Math.Pow(cateto1, 2)) + (Math.Pow(cateto2, 2)));
+
+        Console.WriteLine(" ");
+        Console.WriteLine($"L'ipotenusa è {ipotenuusa}");
+    }
+
+    private static void Cateto()
+    {
+        Console.Write("inserisci dato ipotenusa : ");
+        double ipotenusa = Convert.ToDouble(Console.ReadLine());
+
+
+        Console.Write("inserisci dato cateto : ");
+        double cateto1 = Convert.ToDouble(Console.ReadLine());
+
+        while (cateto1 > ipotenusa)
+        {
+            Console.Clear();
+            Console.Write("riinserisci cateto perchè è più grande dell' ipotenusa : ");
+            cateto1 = Convert.ToDouble(Console.ReadLine());
+        }
+
+        double cateto2 = Math.Sqrt((Math.Pow(ipotenusa, 2)) - (Math.Pow(cateto1, 2)));
+
+        Console.WriteLine(" ");
+        Console.WriteLine($"il cateto da trovare vale {cateto2}");
     }
 }
