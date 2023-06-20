@@ -24,6 +24,7 @@
         Console.WriteLine("15. FIBONACCI");
         Console.WriteLine("16. CONVERSIONI");
         Console.WriteLine("17. STAMPA TRIANGOLO DI TARATAGLIA FINO A NUMERO CHE INSERISCI TU");
+        Console.WriteLine("18. FAI PITAGORA IN BASE ALLE CONDIZIONI CHE GLI IMPONGO");
         Console.WriteLine("");
         Console.WriteLine("<------------------------------------------------------------------------------------------------------------------->");
     }
@@ -38,10 +39,10 @@
         Console.WriteLine(" ");
         do
         {
-            Console.Write("INSERISCI SCELTA DA 1 A 17 ---> ");
+            Console.Write("INSERISCI SCELTA DA 1 A 18 ---> ");
             scelta = Convert.ToInt32(Console.ReadLine());
         }
-        while (scelta < 1 || scelta > 17);
+        while (scelta < 1 || scelta > 18);
 
         return scelta;
     }
@@ -129,6 +130,11 @@
                 case 17:
                     Console.Clear();
                     InfoMath.Triangolo_di_Tartaglia();
+                    break;
+
+                case 18:
+                    Console.Clear();
+                    Pitagora.Scelta();
                     break;
             }
 
