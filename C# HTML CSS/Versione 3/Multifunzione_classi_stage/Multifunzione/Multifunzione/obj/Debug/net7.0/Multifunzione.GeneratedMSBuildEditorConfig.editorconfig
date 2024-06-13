@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Multifunzione
-build_property.ProjectDir = D:\NICOLA\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\Multifunzione_classi_stage\Multifunzione\Multifunzione\
+build_property.ProjectDir = E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 3\Multifunzione_classi_stage\Multifunzione\Multifunzione\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

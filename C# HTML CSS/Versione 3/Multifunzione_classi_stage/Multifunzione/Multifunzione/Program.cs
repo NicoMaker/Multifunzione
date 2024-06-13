@@ -5,7 +5,7 @@ using Multifunzione.crittografia;
 using Multifunzione.Segni_Zodiacali;
 using Multifunzione.Giochi;
 using Multifunzione.Password;
-using  Multifunzione.Giochi.Tombola;
+using Multifunzione.Giochi.Tombola;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 BaseFunction[] functions = new BaseFunction[]
@@ -14,20 +14,18 @@ BaseFunction[] functions = new BaseFunction[]
     new NumeriComplessi(),new Numeri_Primi(), new Radici(),new Esponenziali(),new Logaritmi(),new ValoriAssoluti(),new Seno(), new Coseno(),new Tangente(),
     new Arcoseno(),new ArcoCoseno(),new ArcoTangente(), new Polinomi(), new NumeriPari(), new numeri_dispari(),new PrintTabellinan(),
     new Numeri_Primi_precedenti(), new Fibonacci(),new CoonversioneBinario_Deciamle(),new ConversioneDecimale_binario(),new TrangolodiTartaglia(), new Pitagora(),
-    new Sasso_carta_forbice(),new Tabelline(),new Radici_metodo_Babilonese(), new Cesare(),new CriptazioneOpposta(),new TiroConArcoClass(),new CriptoChiave(), 
-    new Zodiacali(),new Zodiacali_casuali(), new PartitaCalcio(),new NumeriSenzaRipetizione(), new TombolaClass(), new NumeriSenzaRipetzioneNVolte(), 
+    new Sasso_carta_forbice(),new Tabelline(),new Radici_metodo_Babilonese(), new Cesare(),new CriptazioneOpposta(),new TiroConArcoClass(),new CriptoChiave(),
+    new Zodiacali(),new Zodiacali_casuali(), new PartitaCalcio(),new NumeriSenzaRipetizione(), new TombolaClass(), new NumeriSenzaRipetzioneNVolte(),
     new NumeriCasuali(),new Golf(), new NomiSenzaRipetizione(),
 };
 
 bool running = true;
 
-while(running)
+while (running)
 {
     Console.WriteLine("");
-    for (int i = 0; i <functions.Length; i++)
-    {
+    for (int i = 0; i < functions.Length; i++)
         Console.WriteLine($"{i}.{functions[i].GetMenuTitle()}");
-    }
 
     Console.WriteLine("premi un tasto per uscire");
 
