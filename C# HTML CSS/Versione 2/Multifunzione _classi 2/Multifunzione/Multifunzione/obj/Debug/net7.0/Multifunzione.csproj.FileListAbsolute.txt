@@ -118,3 +118,18 @@ D:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\Multifunzione _clas
 D:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.pdb
 D:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.genruntimeconfig.cache
 D:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\ref\Multifunzione.dll
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\bin\Debug\net7.0\Multifunzione.exe
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\bin\Debug\net7.0\Multifunzione.deps.json
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\bin\Debug\net7.0\Multifunzione.runtimeconfig.json
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\bin\Debug\net7.0\Multifunzione.dll
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\bin\Debug\net7.0\Multifunzione.pdb
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.GeneratedMSBuildEditorConfig.editorconfig
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.AssemblyInfoInputs.cache
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.AssemblyInfo.cs
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.csproj.CoreCompileInputs.cache
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.sourcelink.json
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.dll
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\refint\Multifunzione.dll
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.pdb
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\Multifunzione.genruntimeconfig.cache
+E:\Corso ITS IIOT\1 anno\Progetti C#\CORSO OPP\Multifunzione\C# HTML CSS\Versione 2\Multifunzione _classi 2\Multifunzione\Multifunzione\obj\Debug\net7.0\ref\Multifunzione.dll

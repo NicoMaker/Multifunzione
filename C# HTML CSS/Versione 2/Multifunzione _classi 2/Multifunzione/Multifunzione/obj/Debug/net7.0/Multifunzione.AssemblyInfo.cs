@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Multifunzione")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ab6358bb06578f91e9550de1c0e0485cb9cc08f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a64dd1e586e1b81107daf4dfa512de4be75fd5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Multifunzione")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Multifunzione")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
