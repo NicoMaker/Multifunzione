@@ -30,6 +30,7 @@
         InformazioniNumeriCasuali();
         InformazioniGolf();
         InformazioniNomiSenzaRipetetizione();
+        GestionePunteggi();
     }
 
     private static void InformazioniMoneta()
@@ -214,5 +215,11 @@
     {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.WriteLine("43. INSERISCI N NOMI DA TASTIERA E LUI GEERA CASULAMENTE L'ORDINE");
+    }
+
+    private static void GestionePunteggi()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.WriteLine("44. GESTIONE PUNTEGGI");
     }
 }

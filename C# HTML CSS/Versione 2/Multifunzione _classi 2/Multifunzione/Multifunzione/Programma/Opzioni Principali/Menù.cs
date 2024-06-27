@@ -8,7 +8,7 @@
         Console.WriteLine("");
         Informazioni_Programma.Info();
         Console.ForegroundColor = ConsoleColor.DarkRed;
-        Console.WriteLine("0 e numeri maggiori di 43. USCITA");
+        Console.WriteLine("0 e numeri maggiori di 44. USCITA");
         Console.WriteLine("");
         Console.WriteLine("<-------------------------------------------------------------------------------------------------------------------------------------------------------->");
         Console.WriteLine("");

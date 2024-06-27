@@ -461,6 +461,12 @@ public class Ciclo_principale
                     NomiSenzaRipezione.Visualizza();
                     break;
 
+                case 44:
+                    Console.Clear();
+                    Punteggiiniziali.Inserisci();
+                    Console.WriteLine("");
+                    break;
+
                 default:
 
                     Console.Clear();
@@ -480,7 +486,7 @@ public class Ciclo_principale
             Console.WriteLine(" ");
             Console.Clear();
 
-        } while (s != 0 && s <= 43);
+        } while (s != 0 && s <= 44);
     }
 }
 public class Menù
@@ -493,7 +499,7 @@ public class Menù
         Console.WriteLine("");
         Informazioni_Programma.Info();
         Console.ForegroundColor = ConsoleColor.DarkRed;
-        Console.WriteLine("0 e numeri maggiori di 43. USCITA");
+        Console.WriteLine("0 e numeri maggiori di 44. USCITA");
         Console.WriteLine("");
         Console.WriteLine("<-------------------------------------------------------------------------------------------------------------------------------------------------------->");
         Console.WriteLine("");
@@ -537,6 +543,7 @@ public class Informazioni_Programma
         InformazioniNumeriCasuali();
         InformazioniGolf();
         InformazioniNomiSenzaRipetetizione();
+        GestionePunteggi();
     }
 
     private static void InformazioniMoneta()
@@ -721,6 +728,12 @@ public class Informazioni_Programma
     {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.WriteLine("43. INSERISCI N NOMI DA TASTIERA E LUI GEERA CASULAMENTE L'ORDINE");
+    }
+
+    private static void GestionePunteggi()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.WriteLine("44. GESTIONE PUNTEGGI");
     }
 }
 
@@ -6139,5 +6152,216 @@ public static class Pitagora
 
         Console.WriteLine(" ");
         Console.WriteLine($"il cateto da trovare vale {cateto2}");
+    }
+}
+
+public class Punteggiiniziali
+{
+    public static void Inserisci()
+    {
+        int s = 0, numeroutenti = 0;
+        const int Vettore = 300000000;
+
+        string[] utenti = new string[Vettore];
+
+        List<int> punti = new List<int>();
+
+        do
+        {
+            s = Menu();
+
+            switch (s)
+            {
+                case 1:
+                    numeroutenti = punteggi.inserisci(utenti, numeroutenti);
+                    break;
+                case 2:
+                    punteggi.visualizza(utenti, punti, numeroutenti);
+                    break;
+
+                case 3:
+                    punteggi.agggiungipunti(utenti, punti);
+                    break;
+
+                case 4:
+                    punteggi.toglipunti(utenti, punti);
+                    break;
+
+                case 5:
+                    punteggi.aggiungiatutti(utenti, punti, numeroutenti);
+                    break;
+
+                case 6:
+                    punteggi.togliatutti(utenti, punti, numeroutenti);
+                    break;
+
+                case 7:
+                    punteggi.vincitore(utenti, punti, numeroutenti);
+                    break;
+
+                case 8:
+                    punteggi.resetpunti(punti);
+                    break;
+
+                case 9:
+                    numeroutenti = punteggi.resetcompleto(utenti);
+                    break;
+            }
+
+        } while (s != 0);
+
+
+        int Menu()
+        {
+            Console.WriteLine("1. aggiungi utenti");
+            Console.WriteLine("2. viuslizza");
+            Console.WriteLine("3. aggiungi punti");
+            Console.WriteLine("4. togli punti");
+            Console.WriteLine("5. aggiungi a tutti");
+            Console.WriteLine("6. togli a tutti");
+            Console.WriteLine("7. vincitore");
+            Console.WriteLine("8. reset punti");
+            Console.WriteLine("9. reset giocatori e punti");
+            Console.WriteLine("0. uscita");
+
+            Console.Write("inserisci scelta ");
+            int s = Convert.ToInt32(Console.ReadLine());
+
+            return s;
+        }
+    }
+}
+
+public class punteggi
+{
+    public static int inserisci(string[] utenti, int numeroutenti)
+    {
+        Console.WriteLine("quuanti utenti vuoi inserire ");
+        int numero = Convert.ToInt32(Console.ReadLine());
+
+        int totale = numero + numeroutenti;
+
+        for (int i = numeroutenti; i < totale; i++)
+        {
+            Console.Write("inserisci il nome dell'utente ");
+            utenti[i] = Console.ReadLine();
+        }
+
+        return totale;
+    }
+
+    public static void visualizza(string[] utenti, List<int> punti, int numeroutenti)
+    {
+        for (int i = 0; i < numeroutenti; i++)
+        {
+            punti.Add(0);
+
+            Console.WriteLine(utenti[i] + " punti " + punti[i]);
+        }
+    }
+
+    public static void agggiungipunti(string[] utenti, List<int> punti)
+    {
+        string nome;
+        bool conta = false;
+
+        do
+        {
+            Console.Write("inserisci il nome a cui aggiungere punti ");
+            nome = Console.ReadLine();
+
+            for (int i = 0; i < utenti.Length; i++)
+                if (nome == utenti[i])
+                    conta = true;
+
+        } while (!conta);
+
+        Console.Write("quanti punti vuoi aggiungere a " + nome + " ");
+        int aggiungi = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < utenti.Length - 1; i++)
+            if (nome == utenti[i])
+                punti[i] += aggiungi;
+
+    }
+
+
+    public static void toglipunti(string[] utenti, List<int> punti)
+    {
+        string nome;
+        bool conta = false;
+
+        do
+        {
+            Console.Write("inserisci il nome a cui togliere i punti ");
+            nome = Console.ReadLine();
+
+            for (int i = 0; i < utenti.Length - 1; i++)
+                if (nome == utenti[i])
+                    conta = true;
+
+        } while (!conta);
+
+        Console.Write("quanti punti vuoi togliere a " + nome + " ");
+        int togli = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < utenti.Length; i++)
+            if (nome == utenti[i])
+                punti[i] -= togli;
+
+    }
+
+    public static void aggiungiatutti(string[] utenti, List<int> punti, int numeroutenti)
+    {
+        Console.Write("quanti punti vuoi aggiungere a tutti ");
+        int aggiungi = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < numeroutenti; i++)
+            punti[i] += aggiungi;
+    }
+
+    public static void togliatutti(string[] utenti, List<int> punti, int numeroutenti)
+    {
+        Console.Write("quanti punti vuoi togliere a tutti ");
+        int togli = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < numeroutenti; i++)
+            punti[i] -= togli;
+    }
+
+
+    public static void vincitore(string[] utenti, List<int> punti, int numeroutenti)
+    {
+        int max = int.MinValue;
+        string vincitore = "nessun vincitore";
+
+        for (int i = 0; i < numeroutenti; i++)
+            if (punti[i] >= max)
+            {
+                max = punti[i];
+                vincitore = utenti[i];
+            }
+
+        if (vincitore == "nessun vincitore")
+            Console.WriteLine(vincitore);
+        else
+            Console.WriteLine("ha vinto " + vincitore + " con " + max + " punti");
+    }
+
+    public static void resetpunti(List<int> punti)
+    {
+        for (int i = 0; i < punti.Count; i++)
+            punti[i] = 0;
+
+        Console.WriteLine("rest punti");
+    }
+
+    public static int resetcompleto(string[] utenti)
+    {
+        int numeroutenti = 0;
+
+        Console.WriteLine("reset completo");
+
+        return numeroutenti;
     }
 }

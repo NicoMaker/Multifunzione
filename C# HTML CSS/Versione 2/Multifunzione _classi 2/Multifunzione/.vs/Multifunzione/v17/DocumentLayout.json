@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Corso ITS IIOT\\1 anno\\Progetti C#\\CORSO OPP\\Multifunzione\\C# HTML CSS\\Versione 2\\Multifunzione _classi 2\\Multifunzione\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10A0F5BA-3302-4AC5-819B-1296B85A848B}|Multifunzione\\Multifunzione.csproj|e:\\corso its iiot\\1 anno\\progetti c#\\corso opp\\multifunzione\\c# html css\\versione 2\\multifunzione _classi 2\\multifunzione\\multifunzione\\programma\\opzioni principali\\informazioni_programma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A0F5BA-3302-4AC5-819B-1296B85A848B}|Multifunzione\\Multifunzione.csproj|solutionrelative:multifunzione\\programma\\opzioni principali\\informazioni_programma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A0F5BA-3302-4AC5-819B-1296B85A848B}|Multifunzione\\Multifunzione.csproj|e:\\corso its iiot\\1 anno\\progetti c#\\corso opp\\multifunzione\\c# html css\\versione 2\\multifunzione _classi 2\\multifunzione\\multifunzione\\programma\\opzioni principali\\ciclo_principale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A0F5BA-3302-4AC5-819B-1296B85A848B}|Multifunzione\\Multifunzione.csproj|solutionrelative:multifunzione\\programma\\opzioni principali\\ciclo_principale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A0F5BA-3302-4AC5-819B-1296B85A848B}|Multifunzione\\Multifunzione.csproj|e:\\corso its iiot\\1 anno\\progetti c#\\corso opp\\multifunzione\\c# html css\\versione 2\\multifunzione _classi 2\\multifunzione\\multifunzione\\programma\\opzioni principali\\men\u00F9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A0F5BA-3302-4AC5-819B-1296B85A848B}|Multifunzione\\Multifunzione.csproj|solutionrelative:multifunzione\\programma\\opzioni principali\\men\u00F9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +39,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ciclo_principale.cs",
+              "DocumentMoniker": "E:\\Corso ITS IIOT\\1 anno\\Progetti C#\\CORSO OPP\\Multifunzione\\C# HTML CSS\\Versione 2\\Multifunzione _classi 2\\Multifunzione\\Multifunzione\\Programma\\Opzioni Principali\\Ciclo_principale.cs",
+              "RelativeDocumentMoniker": "Multifunzione\\Programma\\Opzioni Principali\\Ciclo_principale.cs",
+              "ToolTip": "E:\\Corso ITS IIOT\\1 anno\\Progetti C#\\CORSO OPP\\Multifunzione\\C# HTML CSS\\Versione 2\\Multifunzione _classi 2\\Multifunzione\\Multifunzione\\Programma\\Opzioni Principali\\Ciclo_principale.cs",
+              "RelativeToolTip": "Multifunzione\\Programma\\Opzioni Principali\\Ciclo_principale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANYBAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:45:12.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Informazioni_Programma.cs",
+              "DocumentMoniker": "E:\\Corso ITS IIOT\\1 anno\\Progetti C#\\CORSO OPP\\Multifunzione\\C# HTML CSS\\Versione 2\\Multifunzione _classi 2\\Multifunzione\\Multifunzione\\Programma\\Opzioni Principali\\Informazioni_Programma.cs",
+              "RelativeDocumentMoniker": "Multifunzione\\Programma\\Opzioni Principali\\Informazioni_Programma.cs",
+              "ToolTip": "E:\\Corso ITS IIOT\\1 anno\\Progetti C#\\CORSO OPP\\Multifunzione\\C# HTML CSS\\Versione 2\\Multifunzione _classi 2\\Multifunzione\\Multifunzione\\Programma\\Opzioni Principali\\Informazioni_Programma.cs",
+              "RelativeToolTip": "Multifunzione\\Programma\\Opzioni Principali\\Informazioni_Programma.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:45:06.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Men\u00F9.cs",
+              "DocumentMoniker": "E:\\Corso ITS IIOT\\1 anno\\Progetti C#\\CORSO OPP\\Multifunzione\\C# HTML CSS\\Versione 2\\Multifunzione _classi 2\\Multifunzione\\Multifunzione\\Programma\\Opzioni Principali\\Men\u00F9.cs",
+              "RelativeDocumentMoniker": "Multifunzione\\Programma\\Opzioni Principali\\Men\u00F9.cs",
+              "ToolTip": "E:\\Corso ITS IIOT\\1 anno\\Progetti C#\\CORSO OPP\\Multifunzione\\C# HTML CSS\\Versione 2\\Multifunzione _classi 2\\Multifunzione\\Multifunzione\\Programma\\Opzioni Principali\\Men\u00F9.cs",
+              "RelativeToolTip": "Multifunzione\\Programma\\Opzioni Principali\\Men\u00F9.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:44:59.179Z",
+              "EditorCaption": ""
             }
           ]
         }

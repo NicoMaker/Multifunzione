@@ -457,6 +457,12 @@
                     NomiSenzaRipezione.Visualizza();
                     break;
 
+                case 44:
+                    Console.Clear();
+                    Punteggiiniziali.Inserisci();
+                    Console.WriteLine("");
+                    break;
+
                 default:
 
                     Console.Clear();
@@ -476,6 +482,6 @@
             Console.WriteLine(" ");
             Console.Clear();
 
-        } while (s != 0 && s <= 43);
+        } while (s != 0 && s <= 44);
     }
 }
