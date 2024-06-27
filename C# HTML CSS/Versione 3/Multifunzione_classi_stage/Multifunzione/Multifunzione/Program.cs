@@ -7,6 +7,7 @@ using Multifunzione.Giochi;
 using Multifunzione.Password;
 using Multifunzione.Giochi.Tombola;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Multifunzione.Matematica.Punteggi;
 
 BaseFunction[] functions = new BaseFunction[]
 {
@@ -16,7 +17,7 @@ BaseFunction[] functions = new BaseFunction[]
     new Numeri_Primi_precedenti(), new Fibonacci(),new CoonversioneBinario_Deciamle(),new ConversioneDecimale_binario(),new TrangolodiTartaglia(), new Pitagora(),
     new Sasso_carta_forbice(),new Tabelline(),new Radici_metodo_Babilonese(), new Cesare(),new CriptazioneOpposta(),new TiroConArcoClass(),new CriptoChiave(),
     new Zodiacali(),new Zodiacali_casuali(), new PartitaCalcio(),new NumeriSenzaRipetizione(), new TombolaClass(), new NumeriSenzaRipetzioneNVolte(),
-    new NumeriCasuali(),new Golf(), new NomiSenzaRipetizione(),
+    new NumeriCasuali(),new Golf(), new NomiSenzaRipetizione(),new PunteggiInizialiInit()
 };
 
 bool running = true;
